@@ -1,12 +1,31 @@
 {
-  "userId": "u_fc77dfc82af6666a",
-  "projectId": "test_code",
+  "schemaVersion": 2,
   "name": "test_code",
-  "board": {
-    "fqbn": "esp32:esp32:esp32"
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32",
+    "options": {
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashFreq": "80",
+      "FlashMode": "qio",
+      "FlashSize": "4M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "PartitionScheme": "default",
+      "PSRAM": "disabled",
+      "UploadSpeed": "921600",
+      "ZigbeeMode": "default"
+    }
   },
-  "selections": null,
-  "serial": null,
+  "serial": {
+    "baudRate": 115200
+  },
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-10-05T06:31:31.498Z",
-  "updatedAt": "2026-10-05T06:31:31.498Z"
+  "updatedAt": "2026-10-05T06:32:28.035Z"
 }
