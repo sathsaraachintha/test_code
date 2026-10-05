@@ -1,0 +1,12 @@
+{
+  "userId": "u_fc77dfc82af6666a",
+  "projectId": "test_code",
+  "name": "test_code",
+  "board": {
+    "fqbn": "esp32:esp32:esp32"
+  },
+  "selections": null,
+  "serial": null,
+  "createdAt": "2026-10-05T06:31:31.498Z",
+  "updatedAt": "2026-10-05T06:31:31.498Z"
+}
