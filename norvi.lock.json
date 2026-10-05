@@ -7,9 +7,33 @@
         "name": "LovyanGFX",
         "version": "1.2.32",
         "scope": "shared"
+      },
+      {
+        "name": "PCA9536D",
+        "version": "2.0.1",
+        "scope": "shared"
       }
     ],
-    "managerResolved": [],
-    "git": []
+    "managerResolved": [
+      {
+        "name": "LovyanGFX",
+        "version": "1.2.32"
+      },
+      {
+        "name": "PCA9536D",
+        "version": "2.0.1"
+      }
+    ],
+    "git": [
+      {
+        "name": "PCA9538",
+        "url": "https://github.com/NORVIControllers/NORVI-X-Version-02",
+        "commit": "aa6dd5de27089493a1aa9f14b6303c36c7f85f1f",
+        "contentSha256": "15ca91217e30912270c6051c6bed7328bcf11a601d65f69f8c51f65b71fbf109",
+        "subpath": "libraries/PCA9538",
+        "scope": "shared",
+        "format": "legacy"
+      }
+    ]
   }
 }
